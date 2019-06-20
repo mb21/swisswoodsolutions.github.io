@@ -47,22 +47,22 @@ Find our current assortment below. **Technical data** on Sonowood Maple and Sono
     </li>
     <li>
       <a href="/assets/images/strings/sonowood_fingerboard_maple2.jpg">
-        <img src="/assets/images/strings/sonowood_fingerboard_maple2_thumb.jpg"/ alt="sonowood maple fingerboard">
+        <img src="/assets/images/strings/sonowood_fingerboard_maple2_thumb.jpg" alt="sonowood maple fingerboard">
       </a>
     </li>
     <li>
       <a href="/assets/images/strings/sonowood_fingerboard_spruce1.jpg">
-        <img src="/assets/images/strings/sonowood_fingerboard_spruce1_thumb.jpg"/ alt="sonowood spruce fingerboard">
+        <img src="/assets/images/strings/sonowood_fingerboard_spruce1_thumb.jpg" alt="sonowood spruce fingerboard">
       </a>
     </li>
     <li>
       <a href="/assets/images/strings/sonowood_fingerboard_spruce4.jpg">
-        <img src="/assets/images/strings/sonowood_fingerboard_spruce4_thumb.jpg"/ alt="sonowood spruce fingerboard">
+        <img src="/assets/images/strings/sonowood_fingerboard_spruce4_thumb.jpg" alt="sonowood spruce fingerboard">
       </a>
     </li>
     <li>
       <a href="/assets/images/strings/sonowood_fingerboard_spruce3.jpg">
-        <img src="/assets/images/strings/sonowood_fingerboard_spruce3_thumb.jpg"/ alt="sonowood spruce fingerboard">
+        <img src="/assets/images/strings/sonowood_fingerboard_spruce3_thumb.jpg" alt="sonowood spruce fingerboard">
       </a>
     </li>
   </ul>    
@@ -144,19 +144,13 @@ Find our current assortment below. **Technical data** on Sonowood Maple and Sono
 ## Sonowood Squared Timbers
 **All squared timbers available in maple or spruce for violin and viola. For cello: pegs and tailpieces only.**
 
-<div class="picturegallery" id="">
-  <ul class="" id="lightgallery">
-    <li data-sub-html="<p>Caption Text</p>">
-      <a href="/assets/images/strings/sonowood_pegs_maple1.jpg">
-        <img src="/assets/images/strings/sonowood_pegs_maple1_thumb.jpg" alt="sonowood maple pegs"/>
-      </a>
-    </li>
-    <li>
-      <a href="/assets/images/strings/sonowood_pegs_spruce1.jpg">
-        <img src="/assets/images/strings/sonowood_pegs_spruce1_thumb.jpg"/ alt="sonowood spruce pegs">
-      </a>
-    </li>
-  </ul>    
+<div class="picturegallery">
+  <a href="/assets/images/strings/sonowood_pegs_maple1.jpg">
+    <img src="/assets/images/strings/sonowood_pegs_maple1_thumb.jpg" alt="sonowood maple pegs"/>
+  </a>
+  <a href="/assets/images/strings/sonowood_pegs_spruce1.jpg">
+    <img src="/assets/images/strings/sonowood_pegs_spruce1_thumb.jpg"/ alt="sonowood spruce pegs">
+  </a>
 </div>
 
 <!--
@@ -222,8 +216,8 @@ Contact us for a price request and become part of the sustainable revolution in 
 </div>
 </div>
 
+<script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/lightgallery/js/lightgallery.min.js"></script>
 <script type="text/javascript">
-  $(".lightgallery").lightgallery();
+  $(".picturegallery").lightGallery();
 </script>
-<script src="/assets/js/jquery.min.js"></script>
